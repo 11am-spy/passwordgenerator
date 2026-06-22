@@ -1,0 +1,30 @@
+#btnDm{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Verdana;
+    text-align: center;
+}
+body.dark-theme{
+    background-color: #222222;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
